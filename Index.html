@@ -3,49 +3,240 @@
     <head>
         <meta charset="utf-8">
         <title>Gian Mattei</title>
-        <link rel="stylesheet" type="text/css" href="BootsTrap/css/bootstrap.min.css">
-        <script type="text/javascript" src="BootsTrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="BootsTrap/js/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="Script.js"></script>
+        <link type="text/css" rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" type="text/css" href="/home/gian/Escritorio/Portafolio/PortfolioWebFrontEnd/BootsTrap/css/bootstrap.min.css">
+        <script type="text/javascript" src="/home/gian/Escritorio/Portafolio/PortfolioWebFrontEnd/BootsTrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/home/gian/Escritorio/Portafolio/PortfolioWebFrontEnd/BootsTrap/js/jquery-3.6.1.min.js"></script>
     </head>
-    <body>
-        <header class="Header-class" id="Header1">
-            <div class="contenedor head">Gian André Mattei - Portafolio Web</div>
-            <nav class="menu-navegacion">
-                <a href="#inicio" id="Inicio">Inicio</a>
-                <a href="#trabajos_previos" id="Experiencia">Experiencias Laborales</a>
-                <a href="#Estudios" id="Estud">Estudios</a>
-                <a href="#contacto" id="Contact">Contacto</a>
-            </nav>
-        </header>
-        <main class="main-class" id="main1">
-            <div class="contenedor-cuerpo">
-                <section class="section-class" id="inicio">
-                    <h2 class="h2-class" id="h2-1">Inicio</h2>
-                    <p class="p-class" id="p1">
-                        Este es un texto de ejemplo para probar como funciona.
-                    </p>
-                </section>
-                <section class="section-class" id="trabajos_previos">
-                    <h2 class="h2-class" id="h2-2">Experiencias Laborales</h2>
-                    <p class="p-class" id="p2">Este es otro texto de prueba.</p>
-                </section>
-                <section class="section-class" id="Estudios">
-                    <h2 class="h2-class" id="h2-3">Estudios</h2>
-                    <p class="p-class" id="p3">Este es el ultimo texto de prueba.</p>
-                </section>
+    <body class="container">
+
+        <nav class="navbar navbar-expand-lg bg-light sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Biografia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experiencias Laborales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Titulos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <aside class="aside-class">
-                <img id="Foto-perfil" src="/home/gian/Escritorio/Portafolio/PortfolioWebFrontEnd/BootsTrap/img/perros-jugando-al-poker.jpg" alt="Perritos :D">
-                <p class="p-class" id="p4">Esta seria la informacion personal mia.</p>
-            </aside>
-        </main>
-        <footer class="footer-class" id="contacto">
-            <h3 class="h3-class" id="h3-1">Contacto</h3>
-            <div class="contacto-contenedor" id="c-content">
-                <a href="mailto:rioparana2012@hotmail.com" id="Mail"><img alt="Gmail" src="/home/gian/Escritorio/Portafolio/PortfolioWebFrontEnd/BootsTrap/img/Gmail.png"></a>
-                <a href="" id="Insta"><img alt="Instagram" src="/home/gian/Escritorio/Portafolio/PortfolioWebFrontEnd/BootsTrap/img/Insta.png"></a>
-                <a href="" id="Face"><img alt="Facebook" src="/home/gian/Escritorio/Portafolio/PortfolioWebFrontEnd/BootsTrap/img/Face.png"></a>
+        </nav>
+
+        <header class="container">
+            <h1>Gian André Mattei</h1>
+            <!--Imagen de muestra-->
+            <img src="./BootsTrap/img/ImgHeader.jpg" class="img-fluid rounded mx-auto d-block" alt="Imagen de Muestra">
+        </header>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col">
+                <main class="container">
+                    <!--Textos de ejemplo-->
+                    <article>
+                        <h3>Biografia</h3>
+                        <p>
+                            "...y no halle cosa en que poner los ojos
+                            que no fuera recuerdo de la muerte"
+                            Quevedo
+                            
+                            I
+                            
+                            Es la sombra que viene,
+                            La garra preparada
+                            Para el golpe certero,
+                            La mirada en alerta
+                            Que busca, sigue, acecha.
+                            
+                            Nada se escapa al ojo
+                            Implacable y absorto.
+                            Nada al cruel arrebato.
+                            
+                            Cuando la furia cae
+                            Rasgando piel y carne,
+                            Y la vida se escapa,
+                            Y la sangre se amansa,
+                            Y se instala la muerte;
+                            Entonces comprendemos
+                            Que el mayor enemigo,
+                            El más voraz y aleve,
+                            Nos hiere siempre el último
+                            Desde adentro del pecho.
+                            
+                            II
+                            
+                            Ya no te creo, ciudad, el paraíso,
+                            El eterno jardín donde la dicha enciende
+                            Sus fuegos de San Telmo.
+                            
+                            Tampoco te concibo como la cuna de las ilusiones,
+                            O el rincón iluminado
+                            Por las luces secretas del deseo.
+                            
+                            Caída la venda de los espejismos,
+                            Eres tan sólo ese paisaje sórdido
+                            Donde rufianes y tahúres
+                            Se tasan mutuamente,
+                            Mientras los mismos tiburones
+                            Se mastican sin pausa
+                            Con sus dientes de oro.
+                            
+                            La araña teje su tela, indiferente,
+                            Mientras tanto.
+                            Tarde o temprano,
+                            Cualquiera ha de caer.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Experiencias Laborales Previas</h3>
+                        <p>
+                            "...y no halle cosa en que poner los ojos
+                            que no fuera recuerdo de la muerte"
+                            Quevedo
+                            
+                            I
+                            
+                            Es la sombra que viene,
+                            La garra preparada
+                            Para el golpe certero,
+                            La mirada en alerta
+                            Que busca, sigue, acecha.
+                            
+                            Nada se escapa al ojo
+                            Implacable y absorto.
+                            Nada al cruel arrebato.
+                            
+                            Cuando la furia cae
+                            Rasgando piel y carne,
+                            Y la vida se escapa,
+                            Y la sangre se amansa,
+                            Y se instala la muerte;
+                            Entonces comprendemos
+                            Que el mayor enemigo,
+                            El más voraz y aleve,
+                            Nos hiere siempre el último
+                            Desde adentro del pecho.
+                            
+                            II
+                            
+                            Ya no te creo, ciudad, el paraíso,
+                            El eterno jardín donde la dicha enciende
+                            Sus fuegos de San Telmo.
+                            
+                            Tampoco te concibo como la cuna de las ilusiones,
+                            O el rincón iluminado
+                            Por las luces secretas del deseo.
+                            
+                            Caída la venda de los espejismos,
+                            Eres tan sólo ese paisaje sórdido
+                            Donde rufianes y tahúres
+                            Se tasan mutuamente,
+                            Mientras los mismos tiburones
+                            Se mastican sin pausa
+                            Con sus dientes de oro.
+                            
+                            La araña teje su tela, indiferente,
+                            Mientras tanto.
+                            Tarde o temprano,
+                            Cualquiera ha de caer.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Titulos</h3>
+                        <p>
+                            "...y no halle cosa en que poner los ojos
+                            que no fuera recuerdo de la muerte"
+                            Quevedo
+                            
+                            I
+                            
+                            Es la sombra que viene,
+                            La garra preparada
+                            Para el golpe certero,
+                            La mirada en alerta
+                            Que busca, sigue, acecha.
+                            
+                            Nada se escapa al ojo
+                            Implacable y absorto.
+                            Nada al cruel arrebato.
+                            
+                            Cuando la furia cae
+                            Rasgando piel y carne,
+                            Y la vida se escapa,
+                            Y la sangre se amansa,
+                            Y se instala la muerte;
+                            Entonces comprendemos
+                            Que el mayor enemigo,
+                            El más voraz y aleve,
+                            Nos hiere siempre el último
+                            Desde adentro del pecho.
+                            
+                            II
+                            
+                            Ya no te creo, ciudad, el paraíso,
+                            El eterno jardín donde la dicha enciende
+                            Sus fuegos de San Telmo.
+                            
+                            Tampoco te concibo como la cuna de las ilusiones,
+                            O el rincón iluminado
+                            Por las luces secretas del deseo.
+                            
+                            Caída la venda de los espejismos,
+                            Eres tan sólo ese paisaje sórdido
+                            Donde rufianes y tahúres
+                            Se tasan mutuamente,
+                            Mientras los mismos tiburones
+                            Se mastican sin pausa
+                            Con sus dientes de oro.
+                            
+                            La araña teje su tela, indiferente,
+                            Mientras tanto.
+                            Tarde o temprano,
+                            Cualquiera ha de caer.
+                        </p>
+                    </article>
+                </main>
+            </div>
+            <div class="col">
+                <aside class="container">
+                    <div class="row">
+                        <div class="col"><img class="rounded" src="./BootsTrap/img/Rana.jpg" alt="imagen de muestra"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img class="rounded" src="./BootsTrap/img/Rana.jpg" alt="imagen de muestra"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img class="rounded" src="./BootsTrap/img/Rana.jpg" alt="imagen de muestra"></div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <footer class="container">
+            <div class="row">
+                <div class="col"><a><img class="img-fluid" src="./BootsTrap/img/Gmail.png" alt="Imagen de muestra"></a></div>
+                <div class="col"><a><img class="img-fluid" src="./BootsTrap/img/Insta.png" alt="Imagen de muestra"></a></div>
+                <div class="col"><a><img class="img-fluid" src="./BootsTrap/img/Face.png" alt="Imagen de muestra"></a></div>
+                <div class="col"><a><img class="img-fluid" src="./BootsTrap/img/WhatsImg.jpg" alt="Imagen de muestra"></a></div>
             </div>
         </footer>
+
     </body>
 </html>
