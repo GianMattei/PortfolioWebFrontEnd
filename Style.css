@@ -2,3 +2,96 @@
     padding:0;
     margin: 0;
 }
+
+/* Cuerpo */
+
+#Cuerpo{
+    background-color: white;
+}
+
+/* Barra de busqueda */
+
+#Barra{
+    background-color: rgb(202, 58, 1);
+    border-bottom: black solid 2px;
+}
+
+nav .navbar-brand{
+    color:white;
+}
+
+nav .nav-link{
+    color:white;
+}
+
+span .navbar-toggler-icon{
+    color:white;
+}
+
+/* Header */
+
+#Inicio{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(202, 58, 1);
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+#Inicio img{
+    border: black solid 2px;
+}
+
+/* Main */
+
+#Principal{
+    float:left;
+    color:white;
+    width: 65%;
+}
+
+#Principal .ColMain{
+    background-color: rgb(202, 58, 1);
+    border: black solid 2px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px;
+}
+
+/* Side */
+
+#Lado{
+    float:right;
+    background-color: rgb(202, 58, 1);
+    border: black solid 2px;
+    border-radius: 15px;
+    width: calc(35% - 15px);
+    padding:20px;
+    margin-left: 15px;
+}
+
+#Lado .col{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#Lado img{
+    border: black solid 2px;
+}
+
+/* Footer */
+
+#Pie{
+    padding: 20px;
+    margin-top:25px;
+    border-radius: 15px;
+    width: 100%;
+    border: black solid 2px;
+    background-color: rgb(202, 58, 1);
+}
+
+#Pie a img{
+    max-height: 75px;
+    max-width: 75px;
+}
